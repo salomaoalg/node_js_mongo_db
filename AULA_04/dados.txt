@@ -1,0 +1,6 @@
+Arquivo de leitura de dados
+
+Salomão Souza
+Idade: 28
+Estado Civil: Solteiro
+
