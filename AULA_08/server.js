@@ -1,13 +1,9 @@
 const express = require('express');
 const app = express();
+const routes = require('./routes')
 
-app.use(
-    express.urlencoded(
-        {
-            extended: true
-        }
-    )
-);
+app.use(express.urlencoded({extended: true}));
+
 
 // http://localhost:3000/testes/?nome=salomao=sobrenome=souza&idade=27&profile=salomaosouza
 
