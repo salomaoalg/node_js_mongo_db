@@ -3,7 +3,8 @@ const route = express.Router();
 const homeControllers = require ('./src/controllers/homeControllers')
 const contatoController = require('./src/controllers/contatoController')
 
-route.get('/', homeControllers.paginaInicial);
+
+route.get('/' homeControllers.paginaInicial);
 route.post('/', homeControllers.postagem)
 
 
