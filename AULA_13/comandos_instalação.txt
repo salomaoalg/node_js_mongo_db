@@ -1,0 +1,2 @@
+npm install dotenv = gerenciador
+npm install mongoose //Dependência do Projeto
