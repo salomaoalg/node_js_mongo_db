@@ -11,7 +11,7 @@ mongoose.connect(process.env.CONNECTONSTRING)
     app.emit('PRONTO')
 })
 .catch(e => console.log(e));
-
+const session = require('express-session')
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.static(path.resolve(__dirname, 'public')));

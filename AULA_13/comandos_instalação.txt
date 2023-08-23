@@ -1,2 +1,3 @@
 npm install dotenv = gerenciador
 npm install mongoose //Dependência do Projeto
+npm i express-session connect-mongo connect-flash // SESSÃO SALVA CACHE
